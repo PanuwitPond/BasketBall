@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.container {
+    background-color: rgb(238, 105, 15);
+    padding: 10%;
+    display: flex;
+}
+
+.team {
+    margin: 0 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.tm{
+    font-weight: bold;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+  color: #000000;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #f2f2f2;
+    background-color: rgb(32, 32, 32);
+    padding: 30px;
+}
+
+.buttons button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
